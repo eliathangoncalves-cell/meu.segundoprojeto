@@ -14,3 +14,57 @@ p:hover, li:hover {
     background-color: #e0e0e0;
     border-color: #007bff;    
 }
+
+body {
+    background-image: url('https://img.magnific.com/fotos-gratis/fundo-azul-elegante-abstrato-com-espaco-de-texto_1017-46767.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+
+
+
+
+.accordion {
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-left: 4px solid #53b8f3; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+}
+
+
+summary {
+    padding: 20px;
+    list-style: none; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: #1e2033;
+}
+
+
+summary::after {
+    content: '+';
+    color: #76c4f1;
+    font-size: 1.5rem;
+}
+
+details[open] summary::after {
+    content: '−';
+}
+
+
+.content {
+    padding: 0 20px 20px 20px;
+    color: #87cbf3;
+    line-height: 1.5;
+}
+
+
+
